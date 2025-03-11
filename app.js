@@ -14,7 +14,11 @@ function adicionarAmigo() {
 };
 
 function validarNome(nome) {
-
+    if (nome == '') {
+        return false;
+    } else {
+        return true;
+    };
 };
 
 function exibirListaNomes(lista) {    
