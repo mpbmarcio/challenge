@@ -32,7 +32,11 @@ function exibirListaNomes(lista) {
 };
 
 function sortearAmigo() {
-
+    if (amigos.length > 0) {
+        let amigoEscolhido = Math.floor(Math.random() * amigos.length);    
+        result.innerHTML = 'O amigo secreto sortead é: ' + amigos[amigoEscolhido];
+    } else
+        alert('Por favor, insira alguns amigos.');
 };
 
 function reiniciarSorteio() {
