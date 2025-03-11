@@ -22,7 +22,13 @@ function validarNome(nome) {
 };
 
 function exibirListaNomes(lista) {    
+    ul.innerHTML = ''; 
 
+    for (let i = 0; i < lista.length; i++) {
+        li = document.createElement('li');        
+        li.innerHTML = lista[i];
+        ul.appendChild(li);
+    };
 };
 
 function sortearAmigo() {
