@@ -40,7 +40,10 @@ function sortearAmigo() {
 };
 
 function reiniciarSorteio() {
-
+    amigos = [];
+    ul.innerHTML = '';
+    result.innerHTML = '';
+    limparCampo(nome);
 }
 
 function limparCampo(campo) {
