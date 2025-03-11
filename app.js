@@ -4,7 +4,13 @@ let result = document.getElementById('resultado');
 let nome = document.getElementById("amigo");
 
 function adicionarAmigo() {
-
+    if (!validarNome(nome.value)) {
+        alert('Por favor, insira um nome.');
+    } else {    
+        amigos.push(nome.value);
+        exibirListaNomes(amigos);
+        limparCampo(nome);
+    };
 };
 
 function validarNome(nome) {
