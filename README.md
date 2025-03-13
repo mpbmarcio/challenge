@@ -19,11 +19,11 @@ Qualquer melhoria e correções serão bem vindas, entre em contato.
 
 # Contato:
 ---
-[![imagem capa](assets/linkedin_small.png)](https://www.linkedin.com/in/mpbmarcio-dev)
+[![imagem capa](assets/linkedin_small.png)](https://www.linkedin.com/in/mpbmarcio-dev/)
 
 # Contribuidores:
 ---
-[![imagem git](assets/github_small.png)](https://www.linkedin.com/in/mpbmarcio-dev/)
+[![imagem git](assets/github_small.png)](https://github.com/mpbmarcio/)
 
 # Agradecimentos Especiais:
 ---
